@@ -5,29 +5,57 @@
 }
 h1{
   text-align: center;
-  margin: 40px 0px ;
+
   color: blue;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.outercontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px;
+  
+  background-color: aqua;
+  height: max-content;
+  width: fit-content;
+  border-radius: 30px;
+
+
 
 }
 
 #getmeme{
   height: 40px;
-  width: 100px;
+  width: 150px;
   text-align: center;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: blue;
 }
 img{
   height: 500px;
   width:600px;
+  border-radius: 20px;
+  
+ 
 }
 
 .product{
-  height: 200px;
-  background-color: red;
+   
+}
+
+#getmeme:hover{
+ color: white;
+ background-color: blue;
+}
+#container:hover{
+  box-shadow:inset -10px -10px 10px blue;
 }

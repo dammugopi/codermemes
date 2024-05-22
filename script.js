@@ -25,7 +25,7 @@ function getimage(){
 
     product.append(image);
     container.appendChild(product);
-    setTimeout(removeimage,2000);
+    setTimeout(removeimage,5000);
   }
   function removeimage(){
    const k= document.getElementsByClassName('product')
